@@ -1,14 +1,14 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-
 const Contact = () => (
-    <main className="flex flex-col items-center p-4">
+    <main className="flex flex-col items-center justify-center min-h-screen p-4">
       <h1 className="text-3xl font-bold mb-4">Entre em Contato</h1>
-      <form className="w-full max-w-md bg-gray-800 p-4 rounded-lg text-white">
-        <input className="w-full p-2 mb-2 bg-gray-700 rounded" type="text" placeholder="Nome" required />
-        <input className="w-full p-2 mb-2 bg-gray-700 rounded" type="email" placeholder="Email" required />
-        <textarea className="w-full p-2 mb-2 bg-gray-700 rounded" placeholder="Mensagem" required />
-        <button className="w-full p-2 bg-blue-500 rounded">Enviar</button>
+
+      <form className="w-full max-w-md bg-white p-6 rounded-lg shadow-lg text-black">
+        <input className="w-full p-2 mb-4 bg-gray-100 border border-gray-300 rounded" type="text" placeholder="Nome" required />
+        <input className="w-full p-2 mb-4 bg-gray-100 border border-gray-300 rounded" type="email" placeholder="Email" required />
+        <textarea className="w-full p-2 mb-4 bg-gray-100 border border-gray-300 rounded" placeholder="Mensagem" required />
+        <button className="w-full p-2 bg-black text-white rounded ">Enviar</button>
       </form>
 
       <div className="flex space-x-4 mt-4">
