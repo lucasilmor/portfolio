@@ -1,9 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => (
-    <nav className="bg-gray-900 p-4 text-white">
+    <nav className="bg-white text-black shadow-md p-4">
       <div className="container mx-auto flex justify-between">
-        <h1 className="text-lg font-bold">Meu Portfólio</h1>
+        <Image
+        src="/Nextjs-logo.svg" 
+        alt="Minha foto"
+        width={100}  
+        height={100} 
+        />
         <ul className="flex space-x-4">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">Sobre</Link></li>
