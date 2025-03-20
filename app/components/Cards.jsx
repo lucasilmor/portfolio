@@ -1,11 +1,13 @@
 import Image from "next/image";
 
 const Cards = ({ title, description, image }) => (
-      <div className="bg-gray-800 text-white p-4 rounded-lg shadow-lg">
-        <Image src={image} alt={title} width={300} height={200} className="rounded" />
-        <h3 className="text-xl font-bold mt-2">{title}</h3>
-        <p className="text-sm mt-1">{description}</p>
-      </div>
-    );
+  <div className="bg-white text-black p-4 rounded-lg shadow-lg flex items-center space-x-20">
+    <Image src={image} alt={title} width={250} height={250} className="rounded" />
+    <div className="flex flex-col">
+      <h3 className="text-xl font-bold">{title}</h3>
+      <p className="text-sm">{description}</p>
+    </div>
+  </div>
+);
 
 export default Cards;

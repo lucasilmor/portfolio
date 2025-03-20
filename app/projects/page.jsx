@@ -4,8 +4,8 @@ const Projects = () => (
     <main className="p-4">
       <h1 className="text-3xl font-bold mb-4">Meus Projetos</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <ProjectCard title="Projeto 1" description="Descrição do projeto 1" image="/project1.jpg" />
-        <ProjectCard title="Projeto 2" description="Descrição do projeto 2" image="/project2.jpg" />
+        <ProjectCard title="Fox" description="Um website de uma loja de brinquedos desenvolvido em Laravel." image="/fox.png" />
+        <ProjectCard title="Alpha" description="uma loja virtual de hardware em formato de aplicativo feito com Android Studio." image="/alpha.png" />
       </div>
     </main>
 );
