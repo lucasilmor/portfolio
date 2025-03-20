@@ -1,3 +1,6 @@
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+
 const Contact = () => (
     <main className="flex flex-col items-center p-4">
       <h1 className="text-3xl font-bold mb-4">Entre em Contato</h1>
@@ -9,8 +12,13 @@ const Contact = () => (
       </form>
 
       <div className="flex space-x-4 mt-4">
-      <a href="https://github.com/lucasilmor" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://www.linkedin.com/in/lucas-silva-283545221/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/lucasilmor" target="_blank" rel="noopener noreferrer">
+      <FaGithub className="w-6 h-6 text-gray-300 hover:text-white" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/lucas-silva-283545221/" target="_blank" rel="noopener noreferrer">
+      <FaLinkedin className="w-6 h-6 text-gray-300 hover:text-white" />
+      </a>
       </div>
       
     </main>
