@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
 import "./globals.css";
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="pt-br">
-      <body>
-        <Navbar />
-        {children}
-      </body>
-    </html>
-  );
-}
+const RootLayout = ({ children }) => (
+  <html lang="pt">
+    <body>
+      <Navbar />
+      {children}
+    </body>
+  </html>
+);
+
+export default RootLayout;

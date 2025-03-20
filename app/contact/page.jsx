@@ -1,5 +1,4 @@
-export default function Contact() {
-  return (
+const Contact = () => (
     <main className="flex flex-col items-center p-4">
       <h1 className="text-3xl font-bold mb-4">Entre em Contato</h1>
       <form className="w-full max-w-md bg-gray-800 p-4 rounded-lg text-white">
@@ -16,4 +15,5 @@ export default function Contact() {
       
     </main>
   );
-}
+
+export default Contact;
